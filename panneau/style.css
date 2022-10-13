@@ -1,0 +1,66 @@
+.b1{
+    background-image: url(./img/paysage1.jpg);
+   
+    
+  
+}
+body{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+.panneau {
+    flex: 1;
+    display: flex;
+    height: 800px;
+    transition-duration: 1s ;
+    background-repeat: no-repeat;
+   justify-content: center;
+    background-size: cover;
+    align-items: center;
+    
+   
+    
+    
+
+    
+    
+}
+.b2{
+    background-image: url(./img/paysage2.jpg);
+  
+   
+}
+.b3{
+    background-image: url(./img/paysage3.jpg);
+
+}
+.b4{
+    background-image: url(./img/paysage4.jpg);
+   
+}
+.b5{
+    background-image: url(./img/paysage5.jpg);
+ 
+    
+}
+.panneau:hover{
+    flex: 5
+    
+    
+}
+h1.messPanneau {
+    opacity: 0% ;
+    transition-duration: 2s ;
+    color: aliceblue;
+}
+
+.Panneau:hover{
+    opacity: 100%;
+    transition-duration: 1s;
+    color: aliceblue;
+}
+
+
+
